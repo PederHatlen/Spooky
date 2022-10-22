@@ -5,17 +5,14 @@
       .cls-1 {
         fill: #2f7f00;
       }
-
       .cls-1, .cls-2, .cls-3 {
         stroke: #fff;
         stroke-miterlimit: 10;
         stroke-width: 5px;
       }
-
       .cls-2 {
         fill: #ffd600;
       }
-
       .cls-3 {
         fill: #d17e19;
       }
