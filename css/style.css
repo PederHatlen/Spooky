@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Merriweather:wght@700&display=swap');
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	min-height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #d17e19; /*#ff8133;*/
+	color: #000;
+	font-family: 'Merriweather', serif;
+	display: grid;
+	grid-template: "header" auto "main" 1fr "footer" auto/1fr;
+	text-align: center;
+}
+h1{
+	font-size: 4rem;
+	margin: 0;
+	padding: 0.5rem;
+}
+h2{font-size: 1.25rem;}
+span{font-size: 2rem;}
+a{
+	color: #000;
+	margin: 1rem;
+}
+a:hover{color: #222;}
+header, footer, #spook{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header{
+	grid-area: header;
+	font-family: 'Creepster', cursive;
+	font-style: italic;
+}
+footer{
+	flex-direction: column;
+	grid-area: footer;
+}
+main{
+	display: grid;
+	grid-template: auto 1fr/1fr;
+	align-items: center;
+	justify-items: center;
+}
+button#more{
+	appearance: none;
+	width: fit-content;
+	border: transparent solid 1px;
+	border-radius: 0.5rem;
+	margin: 0.5rem;
+	padding: 0.25rem 0.5rem;
+	font-family: 'Creepster', cursive;
+	font-size: 1.5rem;
+	background: #000;
+	color: red;
+}
+#more:hover{
+	background: #111;
+	color: #ff2222;
+	cursor: pointer;
+}
